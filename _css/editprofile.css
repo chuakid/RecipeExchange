@@ -1,0 +1,23 @@
+
+form {
+	width: 50%;
+	margin: 0 auto;
+}
+label {
+	font-size: 24px;
+	color: gray;
+}
+#edit input {
+	box-sizing: border-box;
+	display: block;
+	font-size: 24px;
+	width: 100%;
+	box-shadow: 0 2px 1px 0px gray;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+#edit input[value="Edit"] {
+	background-color: #FC8522;
+	color: white;
+	padding: 20px;
+}

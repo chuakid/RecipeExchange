@@ -1,0 +1,176 @@
+header {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 50px 50px 50px 50px;
+}
+header>img {
+	max-height: 500px;
+	height: 100%;
+	width: 100%;
+	max-width: 800px
+}
+header>section>h2 {
+	text-align: center;
+	font-size: 48px;
+	color: #FC8522;
+}
+.star {
+	height: 100px;
+	width: 100px;
+}
+#stars {
+	display: flex;
+	justify-content: center;
+}
+header>section>section, header>section>p {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 24px;
+}
+header>section>section>span>span{
+	color: #FC8522;
+}
+
+header>section>#servings {
+	color: #FC8522;
+	font-size: 24px;
+}
+#timeneeded {
+	display: flex;
+	align-items: center;
+}
+header>section>section>span>img {
+	width: 50px;
+}
+section>h3 {
+	font-weight: normal;
+	padding: 10px 0;
+	text-align: center;
+	color: white;
+	background-color: #FC8522;
+	font-size: 35px;
+	box-shadow: 0 0 1px 1px gray;
+	margin-bottom: 30px;
+}
+main>section {
+	margin-bottom: 100px;
+}
+main>section>section>div {
+	color: gray;
+	font-size: 24px;
+	margin: 20px;
+}
+#recipeBtns a, #recipeBtns button {
+	padding: 10px 20px;
+	font-size: 24px;
+	box-shadow: 0 2px 1px 1px gray;
+	margin-top: 20px;
+	text-decoration: none;
+	color: white;
+	background-color: #FC8522;
+}
+#options {
+	display: flex;
+	align-items: center;
+}
+#options img {
+	width: 40px;
+	height: 40px;
+}
+#recipeBtns>div {
+	position: relative;
+}
+#optionsDropDown {
+	position: absolute;
+	display: none;
+	right: -10%;
+	width: 120%;
+}
+#optionsDropDown a {
+	font-size: 24px;
+	text-align: center;
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	background-color: white;
+	color: #FC8522;
+	margin: 0;
+	
+}
+#optionsDropDown a:hover {
+	background-color: lightgray;
+	
+}
+#Reviews>a{
+	font-size: 24px;
+	display: block;
+	text-align: center;
+	box-shadow: 0 1px 1px 1px gray;
+	margin: 0 auto;
+	padding: 10px 0;
+	width: 60%;
+	background-color: #FC8522;
+	color: white;
+}
+#recipeBtns button {
+	margin: 5px;
+}
+#review section{
+	width: 800px;
+}
+.review {
+	box-shadow: 0 2px 2px 2px gray;
+	padding: 10px;
+	width: 80%;
+	margin: 0 auto 30px auto;;
+}
+.reviewstars{
+	float: right;
+}
+.reviewstar {
+	width: 50px;
+}
+
+.reviewdesc {
+	flex: 2;
+}
+
+.name {
+	font-size: 36px;
+	color: #FC8522;
+}
+
+.delete {
+		font-size: 24px;
+	display: block;
+	text-align: center;
+	box-shadow: 0 1px 1px 1px gray;
+	padding:5px;
+	background-color: #FC8522;
+	color: white;
+
+}
+
+@media screen and (max-width: 1000px){
+	.name {
+		font-size: 24px;
+	}
+	.reviewdesc {
+		font-size: 16px;
+	}
+	.reviewstar {
+		width: 20px;
+	}
+}
+@media screen and (max-width: 600px){
+	.star {
+		width: 50px;
+		height: 50px;
+	}
+	header>section>section, header>section>p {
+		font-size: 16px;
+	}
+}

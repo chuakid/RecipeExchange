@@ -1,0 +1,71 @@
+h2 {
+	margin-top: 20px;
+}
+main>section {
+	margin-top: 50px;
+	display: table;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+main>section>section {
+	display: table-row;
+}
+main>section>section:first-child>div {
+	color: white;
+	background-color: #FC8522;
+}
+main>section>section>div {
+	padding: 10px;
+	border: solid rgba(123,123,123,1.00) 1px;
+	display: table-cell;
+	font-size: 24px;
+	color: #FC8522;
+	text-align: center;
+}
+main button {
+	font-size: 24px;
+	color: white;
+	padding: 5px;
+	background-color: #FC8522;
+	box-shadow: 0 1px 1px 1px gray;
+}
+main>section>section>div:first-child {
+	width: 40px;
+}
+main form {
+	margin: 20px auto 0 auto;
+	text-align: center;
+}
+main form input {
+	font-size: 24px;
+	padding: 10px;
+	box-shadow: 0 1px 1px 1px gray;
+}
+main form button {
+	padding: 10px;
+}
+main section input {
+	font-size: 24px;
+}
+.imagelabel {
+	text-align: center;
+	background-color: #FC8522;
+	display: inline-block;
+	color: white;
+	padding: 10px;
+	font-size: 16px;
+	box-shadow: 0 2px 1px 0px gray;
+}
+
+input[type="file"] {
+	position: absolute;
+	left: -99999rem
+}
+
+main>section>section>div>img {
+	height: 50px;
+	width: 200px;
+}
+
+

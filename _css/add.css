@@ -1,0 +1,47 @@
+
+form {
+	width: 50%;
+	margin: 0 auto;
+}
+#add input, textarea, select {
+	box-sizing: border-box;
+	display: block;
+	font-size: 24px;
+	width: 100%;
+	box-shadow: 0 2px 1px 0px gray;
+	padding: 20px;
+	margin-bottom: 30px;
+}
+#add input[type="submit"] {
+	background-color: #FC8522;
+	color: white;
+	padding: 20px;
+}
+label {
+	font-size: 24px;
+	color: gray;
+	margin-bottom: 10px;
+	display: block;
+}
+form button, #imagelabel{
+	background-color: #FC8522;
+	color: white;
+	padding: 10px;
+	width: 200px;
+	font-size: 16px;
+	box-shadow: 0 2px 1px 0px gray;
+	margin-bottom: 30px;
+	margin-top: -20px;
+}
+#imagelabel {
+	text-align: center;
+	display: inline-block;
+	margin: 0 0 20px 0;
+}
+#add input[type="file"] {
+	position: absolute;
+	left: -99999rem
+}
+::placeholder {
+ font-style: italic;
+}
